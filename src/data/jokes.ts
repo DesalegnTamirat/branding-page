@@ -1,0 +1,85 @@
+export type Roast = {
+    id: number
+    title: string
+    roast: string
+}
+
+export const roasts: Roast[] = [
+    { id: 1, title: "Desalegn the Procrastinator", roast: "You started learning full-stack development... last week, but you're already planning to build a tech empire. Slow down, Bezos." },
+  { id: 2, title: "Git Commitment Issues", roast: "You want to learn Git, but your only commit so far is committing to watching tutorials." },
+  { id: 3, title: "Stack Overflow Addict", roast: "You're the kind of developer who googles 'How to print hello world'... and still checks the top 5 answers." },
+  { id: 4, title: "Debugger Nightmare", roast: "Your code has so many bugs, even exterminators are giving up." },
+  { id: 5, title: "Node.js Newbie", roast: "You love Node.js, but let's be honest, you're still trying to figure out what 'npm' stands for." },
+  { id: 6, title: "Promise Breaker", roast: "You say you know JavaScript, but the only promise you keep is breaking async code." },
+  { id: 7, title: "CSS Catastrophe", roast: "Your CSS is so bad, even your website's layout is trying to escape." },
+  { id: 8, title: "Debugger Disaster", roast: "Your debugging strategy is just sprinkling console.logs like it's seasoning." },
+  { id: 9, title: "Algorithm Hoarder", roast: "You solved 700 LeetCode problems but still can't solve the problem of writing clean code." },
+  { id: 10, title: "Asynchronous Amnesia", roast: "You're so bad with callbacks, even your code is ghosting you." },
+  { id: 11, title: "Frontend Fraud", roast: "Your frontend skills are like your confidence—pure illusion." },
+  { id: 12, title: "Backend Bluffer", roast: "You call yourself a backend developer, but your server crashes more than a toddler learning to walk." },
+  { id: 13, title: "Flexbox Failure", roast: "Your flexbox layouts are so rigid, they should be called 'fixbox.'" },
+  { id: 14, title: "Gridlock", roast: "You love CSS Grid, but your layouts look like a car crash on a highway." },
+  { id: 15, title: "Command Line Confusion", roast: "You're so lost in the command line, you thought 'cd' was a music player." },
+  { id: 16, title: "Full-Stack Faker", roast: "You want to be a full-stack developer in a month? Sure, and I'll be an astronaut by next week." },
+  { id: 17, title: "JSON Juggler", roast: "Your understanding of JSON is so shallow, even an array of strings confuses you." },
+  { id: 18, title: "Framework Fanatic", roast: "You love frameworks so much, you switch to a new one every day just to avoid learning the basics." },
+  { id: 19, title: "LeetCode Legend?", roast: "You brag about solving LeetCode problems, but your solutions are 90% brute force and 10% Stack Overflow." },
+  { id: 20, title: "Async Await... Forever", roast: "Your async functions take so long, even the server falls asleep waiting for a response." },
+  { id: 21, title: "Regex Rookie", roast: "Your regex patterns are so bad, even they can't find themselves." },
+  { id: 22, title: "Hackathon Hero?", roast: "You're at a hackathon with zero experience and 100% confidence—perfect combo for chaos." },
+  { id: 23, title: "MongoDB Madness", roast: "You love MongoDB, but your database design is just a collection of bad decisions." },
+  { id: 24, title: "Teaching Tyrant", roast: "You teach others programming, but your best advice is 'just google it.'" },
+  { id: 25, title: "Coding Cowboy", roast: "You write code like you're in a shootout—no aim, just spraying semicolons everywhere." },
+  { id: 26, title: "Overconfident Overachiever", roast: "You solve one coding problem and suddenly think you're ready for Google." },
+  { id: 27, title: "CSS Houdini", roast: "Your animations are so bad, even Houdini couldn't make them disappear fast enough." },
+  { id: 28, title: "Code Review Reject", roast: "Your PRs are so messy, even GitHub wants to reject them automatically." },
+  { id: 29, title: "API Amateur", roast: "You tried building an API, but the only thing it's good at is giving 500 errors." },
+  { id: 30, title: "Debugger Denial", roast: "You blame the compiler for bugs when your code looks like it was written by a caffeinated raccoon." },
+  { id: 31, title: "Package.json Panic", roast: "You opened package.json once and immediately regretted your life choices." },
+  { id: 32, title: "Dependency Disaster", roast: "Your project has so many dependencies, even npm is scared to run 'install.'" },
+  { id: 33, title: "TypeScript Tyrant", roast: "You love TypeScript, but your 'any' usage is so liberal, it's basically JavaScript." },
+  { id: 34, title: "CSS Confusion", roast: "Your CSS files are so chaotic, even you don't know what's affecting what." },
+  { id: 35, title: "React Riddle", roast: "You say you know React, but you keep asking 'What even is a hook?'" },
+  { id: 36, title: "HTML Helpless", roast: "Your HTML is so bad, even browsers render it with a cringe." },
+  { id: 37, title: "Event Evasion", roast: "You avoid handling JavaScript events like they're your responsibilities." },
+  { id: 38, title: "Console Log King", roast: "Your entire debugging strategy is console.log('why isn't this working?')." },
+  { id: 39, title: "Function Faker", roast: "Your functions are so long, they could pass as a college essay." },
+  { id: 40, title: "Laptop Lava", roast: "Your code is so inefficient, it makes your laptop hotter than the sun." },
+  { id: 41, title: "Commitment Issues", roast: "You treat Git commits like relationships—sporadic and full of regret." },
+  { id: 42, title: "Syntax Sufferer", roast: "You can write code, but even your compiler asks for a therapist." },
+  { id: 43, title: "Null Nightmare", roast: "Your 'null' errors are so common, they might as well be your app's mascot." },
+  { id: 44, title: "Loop Loser", roast: "Your loops are so infinite, they make black holes jealous." },
+  { id: 45, title: "Deployment Disaster", roast: "You deploy apps that crash so fast, they should come with airbags." },
+  { id: 46, title: "Error Expert", roast: "You're so good at getting errors, it's basically your coding superpower." },
+  { id: 47, title: "Documentation Dodger", roast: "You write code so cryptic, even future-you won't know what it does." },
+  { id: 48, title: "Import Imbecile", roast: "Your import statements are so wrong, even your IDE gives up on auto-correcting them." },
+  { id: 49, title: "Branch Bruiser", roast: "You handle Git branches like you're hacking through a jungle with a spoon." },
+  { id: 50, title: "Router Rookie", roast: "Your routing is so bad, even Google Maps can't figure out where it's going." },
+  { id: 51, title: "Sass Sadness", roast: "You say you use Sass, but your stylesheets are just a mess with a fancy file extension." },
+  { id: 52, title: "Bootstrap Bluffer", roast: "You call it 'custom CSS' but it's just Bootstrap with the default colors." },
+  { id: 53, title: "Script Snail", roast: "Your scripts are so slow, they make glaciers look like Formula 1." },
+  { id: 54, title: "Lazy Loader", roast: "Your lazy loading is so lazy, it doesn't even show up." },
+  { id: 55, title: "DOM Destroyer", roast: "Your DOM manipulation is so chaotic, it should come with a 'do not touch' sign." },
+  { id: 56, title: "Framework Faker", roast: "You say you're 'learning frameworks,' but you just keep reading the docs without coding anything." },
+  { id: 57, title: "Logic Leaker", roast: "Your conditional statements are so bad, even 'else' is like 'nah, I'm good.'" },
+  { id: 58, title: "Package.json Prophet", roast: "You believe every npm package will save your project. Spoiler: It won't." },
+  { id: 59, title: "String Splitter", roast: "Your string handling skills are so bad, even substrings file restraining orders." },
+  { id: 60, title: "Error Enthusiast", roast: "You say you hate errors, but your code says otherwise." },
+  { id: 61, title: "Array Agitator", roast: "Your array manipulations are so clumsy, even 'pop' is screaming for help." },
+  { id: 62, title: "Tech Talker", roast: "You talk about tech so much, people think you're a podcast." },
+  { id: 63, title: "Debugger's Worst Enemy", roast: "Even the debugger is like, 'Bro, I can't with you today.'" },
+  { id: 64, title: "Middleware Menace", roast: "Your middleware is so messy, it should be called 'middle-mayhem.'" },
+  { id: 65, title: "CLI Chaos", roast: "Your command-line interface skills are so bad, even 'ls' refuses to work." },
+  { id: 66, title: "Coding Narcissist", roast: "You spend more time styling your IDE than writing actual code." },
+  { id: 67, title: "Python Pretender", roast: "You say you know Python, but even 'import this' is like 'who dis?'" },
+  { id: 68, title: "Database Dilemma", roast: "Your database queries are so bad, even SELECT wants to quit." },
+  { id: 69, title: "Lifecycle Loser", roast: "You mess up React lifecycles so often, they're filing a lawsuit." },
+]
+
+export function getRoast(id: number) {
+    return roasts.find(roast => roast.id === id)
+}
+
+export function addRoast(roast: Roast) {
+    roasts.push(roast)
+}
